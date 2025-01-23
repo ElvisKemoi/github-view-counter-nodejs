@@ -11,7 +11,7 @@ This API allows you to display a profile view counter in your GitHub `README.md`
 ## API Endpoint
 
 ```
-https://github-view-counter-nodejs.vercel.app/user/?username=<your-github-username>
+http://githubviews.photosoko.com/user/?username=<your-github-username>
 ```
 
 ### Parameters
@@ -25,7 +25,7 @@ Follow these steps to add the profile view counter to your GitHub `README.md` fi
 1. Copy the Markdown code below and paste it into your `README.md` file:
 
    ```markdown
-   ![Profile Views](https://github-view-counter-nodejs.vercel.app/user/?username=<your-github-username>)
+   ![Profile Views](http://githubviews.photosoko.com/user/?username=<your-github-username>)
    ```
 
    Replace `<your-github-username>` with your actual GitHub username.
@@ -39,7 +39,7 @@ Follow these steps to add the profile view counter to your GitHub `README.md` fi
 If your GitHub username is `ElvisKemoi`, use the following code in your `README.md` file:
 
 ```markdown
-![Profile Views](https://github-view-counter-nodejs.vercel.app/user/?username=ElvisKemoi)
+![Profile Views](http://githubviews.photosoko.com/user/?username=ElvisKemoi)
 ```
 
 This will display the profile view counter as shown below:
