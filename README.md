@@ -43,6 +43,7 @@ If your GitHub username is `ElvisKemoi`, use the following code in your `README.
 ```
 
 This will display the profile view counter as shown below:
+<br/>
 ![Profile Views](http://githubviews.photosoko.com/user/?username=ElvisKemoi)
 
 ## Notes
