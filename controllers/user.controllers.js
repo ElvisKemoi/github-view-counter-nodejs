@@ -32,8 +32,12 @@ exports.addCount = async (req, res) => {
 		const svg = `
             <svg xmlns="http://www.w3.org/2000/svg" width="400" height="100">
                 <rect width="400" height="100" fill="#f0f8ff" rx="15" />
-                <text x="20" y="40" font-size="24" fill="#2c3e50" font-family="Arial, sans-serif">${username}'s Profile</text>
-                <text x="20" y="70" font-size="18" fill="#34495e" font-family="Arial, sans-serif">Views: ${user.viewCount}</text>
+                <text x="20" y="40" font-size="24" fill="#2c3e50" font-family="Verdana, sans-serif">
+                    ${username}'s Profile
+                </text>
+                <text x="20" y="70" font-size="18" fill="#34495e" font-family="Verdana, sans-serif">
+                    Views: ${user.viewCount}
+                </text>
             </svg>
         `;
 
@@ -50,8 +54,12 @@ exports.addCount = async (req, res) => {
 		const errorSvg = `
             <svg xmlns="http://www.w3.org/2000/svg" width="400" height="100">
                 <rect width="400" height="100" fill="#ffebee" rx="15" />
-                <text x="20" y="40" font-size="24" fill="#c0392b" font-family="Arial, sans-serif">Error</text>
-                <text x="20" y="70" font-size="18" fill="#e74c3c" font-family="Arial, sans-serif">Unable to update view count</text>
+                <text x="20" y="40" font-size="24" fill="#c0392b" font-family="Verdana, sans-serif">
+                    Error
+                </text>
+                <text x="20" y="70" font-size="18" fill="#e74c3c" font-family="Verdana, sans-serif">
+                    Unable to update view count
+                </text>
             </svg>
         `;
 
