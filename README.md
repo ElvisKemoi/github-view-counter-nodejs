@@ -43,7 +43,7 @@ If your GitHub username is `ElvisKemoi`, use the following code in your `README.
 ```
 
 This will display the profile view counter as shown below:
-
+<img src="https://github-view-counter-nodejs.vercel.app/user/?username=ElvisKemoi" />
 ![Profile Views](https://github-view-counter-nodejs.vercel.app/user/?username=ElvisKemoi)
 
 ## Notes
